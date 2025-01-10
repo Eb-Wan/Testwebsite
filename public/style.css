@@ -3,7 +3,7 @@ body{
     padding: 0px;
 
     --primary-light: #FFFFFF;
-    --secondary-light: #DDDDDD;
+    --secondary-light: #EEEEEE;
 
     --primary-dark: #080808;
     --secondary-dark: #444444;
@@ -11,6 +11,9 @@ body{
 
 .large-text {
     font-size: 2em;
+}
+.medium-text {
+    font-size: 1.4em;
 }
 .text-bold {
     font-weight: bold;
@@ -33,4 +36,14 @@ body{
 .bordered-light {
     border: solid 1px var(--primary-dark);
     background-color: var(--secondary-light);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    padding: 60px;
+    gap: 40px;
 }
