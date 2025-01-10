@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>com.net</title>
+    <script src="htmx.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="diplay-flex-row flex-justify-between bordered-light"><div class="large-text text-bold text-italic">com.net</div><button>log in</button></header>
+    <form ></form>
+    <button hx-get="/db/users" hx-target="#container" hx-swap="innerHTML">Get all users</button>
+    <p id="container"></p>
+</body>
+</html>
